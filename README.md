@@ -10,7 +10,7 @@
 
 - 📄 Know about my experiences [Data Science,Machine Learning R](Data Science,Machine Learning R)
 
-<h3 align="left">Connect with me:</h3>
+
 <p align="left">
 </p>
 
