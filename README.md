@@ -2,8 +2,6 @@
 <h3 align="center">A Data Science and Machine Learning enthusiast</h3>
 
 
-- 🔭 I’m currently working on **multiple disease predictor**
-
 - 🌱 I’m currently learning **Machine Learning , Deep learning and Transformer models**
 
 - 📫 How to reach me **atharvachundurwar841@gmail.com**
