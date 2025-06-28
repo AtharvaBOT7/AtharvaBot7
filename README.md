@@ -1,5 +1,5 @@
 <h1 align="center">Hi there 👋, I'm Atharva Chundurwar</h1>
-<h3 align="center">💡 MS CS @ ASU | Machine Learning & AI Enthusiast | Building Smart Solutions</h3>
+<h3 align="center">🤖 MS CS @ ASU | AI & GenAI Enthusiast | Building LLM-Powered Systems</h3>
 
 <p align="center">
   <a href="mailto:atharvachundurwar841@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a>
@@ -11,52 +11,45 @@
 
 ### 🚀 About Me
 
-- 🎓 I'm a Master’s student in **Computer Science** at Arizona State University
-- 🧠 Passionate about **LLMs, RAG pipelines, Vector Databases**, and **AI-driven solutions**
-- 🛠️ Building intelligent systems with **OpenAI**, **Google GenAI**, **LangChain**, and **LlamaIndex**
-- 🌱 Currently diving deep into **retrieval-augmented generation (RAG)** and AI system orchestration
-- 💬 Open to collaboration on applied AI, product-driven ML systems, and smart assistants
+- 🎓 Master’s student in **Computer Science** at Arizona State University (CGPA 3.89/4.0)
+- 🔍 Passionate about **LLMs, Retrieval-Augmented Generation (RAG)**, and **AI product development**
+- 💬 Building intelligent systems using **OpenAI**, **Google GenAI**, **LangChain**, and **LlamaIndex**
+- ⚙️ Exploring **semantic search**, **vector databases**, and **model evaluation pipelines**
+- 🌟 Dedicated to solving real-world problems using **AI in healthcare, education, and productivity**
 
 ---
 
-### 🧠 Featured Projects
+### 💼 Key Projects
 
-- 🧾 **Medical Chatbot using Meta LLaMA + Pinecone + Flask + RAG**
-- 📈 **Bayesian Portfolio Optimizer with Uncertainty Modeling**
-- 🔍 **AI-Powered Document QA System with LangChain + Chroma DB**
-- 🛒 **NYU Marketplace Web App**
-- 🧠 **LLM Prompting System using OpenAI + Google Generative AI**
+🧠 **AI-Med: Medical Chatbot with RAG + Pinecone + Meta LLaMA**  
+• Built a production-ready RAG system retrieving semantically indexed medical knowledge  
+• Used chunked embeddings + cosine similarity over Pinecone DB  
+• Integrated LangChain + locally hosted Meta LLaMA 2 with Flask for a complete AI assistant
 
----
+📝 **MCQ Generator with OpenAI GPT-4o + LangChain**  
+• Automatically generates and grades quizzes per user input  
+• Used Sequential Chaining and built a user-facing Flask API  
+• Supports CSV export for quizzes, saving faculty hours in manual work
 
-### 🛠 Languages & Tools
+🧪 **LLM Reasoning Chain Analysis & Auto Evaluator**  
+• Evaluated LLaMA-3-8B-Instruct and Gemini-Pro on reasoning tasks  
+• Created error taxonomy + custom GPT-based evaluator achieving 81.98% classification accuracy  
+• Used Hugging Face, Transformers, and custom logic on LogiQA/ARCT datasets
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40" alt="C" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="40" height="40" alt="MySQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS3" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40" alt="TensorFlow" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40" height="40" alt="PyTorch" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" height="40" alt="Flask" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" height="40" alt="FastAPI" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git" />
-</p>
+🧬 **Dysrhythmia Prediction with Deep Learning**  
+• CNN-based ECG model adopted by Symbiosis Hospital, reducing diagnostic time by 20%  
+• Presented at IEEE Conference to 100+ attendees  
+• Used GoogLeNet, VGG16, Random Forest, SVM, and Decision Trees
 
 ---
 
-### 🧰 Core Libraries & Frameworks
+### 🧰 Tech Stack
 
-- **LLMs & NLP:** OpenAI, Google Generative AI, LLaMA, Hugging Face Transformers  
-- **RAG Pipelines:** LangChain, LlamaIndex, Pinecone, Chroma DB  
-- **ML/Stats:** Scikit-learn, XGBoost, LSTM, Bayesian Models  
-- **Infra & Deployment:** Docker, Airflow, MLflow, AWS, GitHub Actions  
-- **Visualization:** Matplotlib, Seaborn, Power BI, Tableau
+**Languages:** Python, C, C++, SQL, R, HTML, CSS, Bash  
+**Libraries & Frameworks:** TensorFlow, PyTorch, Scikit-learn, Keras, Hugging Face, LangChain, Llama-Index, Streamlit  
+**GenAI:** OpenAI, Google GenAI, Ollama, Transformers  
+**Vector DBs:** Pinecone, Chroma DB, FAISS  
+**Tools:** Flask, React, MongoDB, PostgreSQL, MySQL, Tableau, Power BI, Git, Docker, AWS, Airflow, CI/CD
 
 ---
 
@@ -69,10 +62,8 @@
 
 ---
 
-### ✨ Fun Fact
-I'm driven by the idea that AI should be **useful, ethical, and empowering**. Whether it's answering health questions, helping students, or forecasting financial trends — I love building systems that truly make a difference.
+### 💡 Fun Fact
+I'm driven by curiosity, creativity, and a desire to make AI accessible and impactful. Whether it’s simplifying healthcare with chatbots or improving learning with smart quizzes, I believe in building AI that **matters**.
 
 ---
 
-🛠 Want help turning this into a pinned `README.md` on your profile repo (`AtharvaBOT7/AtharvaBOT7`)? I can walk you through it too.
-Let me know if you want to add animated effects, custom badges, or highlight specific repositories next!
