@@ -7,6 +7,12 @@
   <a href="https://github.com/AtharvaBOT7"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/AtharvaBOT7/AtharvaBOT7/blob/main/Atharva_Chundurwar_Resume_SDE.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Download%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume"/>
+  </a>
+</p>
+
 ---
 
 ### 🧬 About Me
@@ -27,17 +33,10 @@ I thrive on:
 ### ⚙️ My Toolbox
 
 **Languages:** Python, C, C++, SQL, R, HTML/CSS, Bash  
-**ML & GenAI:** PyTorch, TensorFlow, Keras, OpenAI, Google GenAI, Transformers, LangChain, LlamaIndex  
-**Vector DBs:** Pinecone, FAISS, Chroma  
+**ML & GenAI:** PyTorch, TensorFlow, Hugging Face, Scikit-learn, Keras, LangChain, LlamaIndex  
+**Vector Search:** Pinecone, FAISS, Chroma  
 **Dev Tools:** Flask, React, MongoDB, PostgreSQL, MySQL, Git, Docker, Airflow, AWS, CI/CD  
-**Viz & Dashboards:** Tableau, Power BI  
-
----
-
-### 📌 Philosophy
-
-I don’t just want to use AI — I want to **build with it**, challenge it, and make it more accessible and impactful.  
-For me, AI isn’t just code. It’s **creativity at scale**, and I’m here for it.
+**Data Viz:** Tableau, Power BI  
 
 ---
 
@@ -50,7 +49,9 @@ For me, AI isn’t just code. It’s **creativity at scale**, and I’m here for
 
 ---
 
-> Let’s collaborate, connect, and make AI that actually matters.  
-If you’re building something cool — I’m always just one pull request away.
+### 💡 Personal Motto
+
+> I don’t just want to use AI — I want to build with it, challenge it, and make it more accessible and impactful.  
+> For me, AI isn’t just code. It’s creativity at scale — and I’m here for it.
 
 ---
