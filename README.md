@@ -1,46 +1,93 @@
-<h1 align="center">Hey there 👋, I'm Atharva Chundurwar</h1>
-<h3 align="center">🧠 MS CS @ ASU | AI/ML + GenAI Enthusiast | LLM Systems Builder | Obsessed with Making Machines Think</h3>
+<h1 align="center">atharva chundurwar</h1>
 
 <p align="center">
-  <a href="mailto:atharvachundurwar841@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/atharva-chundurwar-7080a31b7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/AtharvaBOT7"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+  <code>ms cs @ asu</code> &nbsp;·&nbsp; <code>ai/ml builder</code> &nbsp;·&nbsp; <code>llm systems</code> &nbsp;·&nbsp; <code>voice ai</code>
 </p>
 
 <p align="center">
-  <a href="https://github.com/AtharvaBOT7/AtharvaBOT7/blob/main/Atharva_Chundurwar_Resume_SDE.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/Download%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume"/>
-  </a>
+  <a href="https://www.linkedin.com/in/atharva-chundurwar-7080a31b7/"><img src="https://img.shields.io/badge/linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/AtharvaBOT7"><img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/AtharvaBOT7/AtharvaBOT7/blob/main/Atharva_Chundurwar_Resume_SDE.pdf"><img src="https://img.shields.io/badge/resume-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white" /></a>
 </p>
 
 ---
 
-### 🧬 About Me
+```
+builder @ the intersection of llm systems + real-world products.
+ms cs @ asu (cgpa: 3.96/4.0) — shipping voice ai agents, rag pipelines,
+and multimodal workflows that actually work in production.
 
-I'm Atharva — a builder, thinker, and passionate GenAI tinkerer.  
-Currently pursuing my MS in Computer Science at Arizona State University (GPA: 3.89/4.0), I’m deeply immersed in the world of Large Language Models, Retrieval-Augmented Generation (RAG), and semantic search. If it involves making AI more useful, explainable, or human-aligned — I’m probably working on it.
-
-I love bridging the gap between abstract AI theory and real-world use cases. Whether it’s simplifying healthcare with smart assistants or enhancing education with auto-evaluators, I’m driven by the idea of **AI with purpose**.
-
-I thrive on:
-- Experimenting with **LangChain**, **LlamaIndex**, and **Hugging Face Transformers**
-- Scaling ideas with **Flask**, **Docker**, **CI/CD**, and **AWS**
-- Getting lost in vector embeddings and ranking pipelines
-- Keeping my prompts sharp and my models smarter
+currently deep in: prompt engineering · rag · voice ai · fine-tuning
+obsessed with: making ai useful, explainable, and human-aligned.
+```
 
 ---
 
-### ⚙️ My Toolbox
+### toolbox
 
-**Languages:** Python, C, C++, SQL, R, HTML/CSS, Bash  
-**ML & GenAI:** PyTorch, TensorFlow, Hugging Face, Scikit-learn, Keras, LangChain, LlamaIndex  
-**Vector Search:** Pinecone, FAISS, Chroma  
-**Dev Tools:** Flask, React, MongoDB, PostgreSQL, MySQL, Git, Docker, Airflow, AWS, CI/CD  
-**Data Viz:** Tableau, Power BI  
+| layer | stack |
+|-------|-------|
+| **languages** | Python · C · C++ · SQL · R · Shell/Bash |
+| **ml / genai** | PyTorch · HuggingFace · LangChain · LangGraph · LlamaIndex · Ollama · Scikit-learn |
+| **vector / rag** | Pinecone · FAISS · Chroma DB · Weaviate |
+| **mlops** | MLflow · DVC · Airflow · Prometheus · Grafana · Databricks |
+| **cloud / infra** | AWS · GCP · Azure · Docker · Kubernetes · Apache Spark · Snowflake |
+| **apis / backend** | FastAPI · Flask · PostgreSQL · Hadoop · Hive · dbt |
 
 ---
 
-### 📈 GitHub Stats
+### projects
+
+#### text-to-sql — natural language to sql query generation
+`flan-t5` `fastapi` `streamlit` `spider-dataset`
+
+Fine-tuned Flan-T5 for cross-domain Text-to-SQL on Spider dataset (10,181 samples, 138 domains) with schema-aware prompt engineering.
+Deployed production system via Streamlit + FastAPI for natural language querying across arbitrary SQLite databases.
+
+> **89.8% valid SQL** · **1.6–5.5s generation latency** · automatic schema extraction
+
+---
+
+#### llm reasoning evaluation framework
+`llama-3-8b` `gemini-pro-1.5` `logiqa` `arct`
+
+Evaluated open/closed-source LLMs on logical reasoning benchmarks. Designed structured error taxonomy — 5 high-level + 9 fine-grained failure categories.
+Built automated LLM-based evaluator for reasoning error detection.
+
+> **81.98% evaluator accuracy** · **30% improvement** over baseline heuristics
+
+---
+
+#### ai-med — medical chatbot via rag + vector db
+`langchain` `llama2` `pinecone` `flask`
+
+Production RAG pipeline with dense vector retrieval indexing 4,000+ pages of medical documentation.
+Integrated LangChain + locally hosted LLaMA2 with vector-based document retrieval + dynamic LLM generation.
+
+> **0.93 retrieval accuracy** on domain-specific queries
+
+---
+
+#### vehicle insurance prediction — production mlops pipeline
+`aws` `kubernetes` `docker` `prometheus` `grafana`
+
+End-to-end MLOps pipeline (ingest → validate → train → deploy) with data + concept drift detection.
+Deployed via AWS S3 + GitHub Actions CI/CD → EC2 + Docker + Amazon ECR + Kubernetes.
+
+> **93% accuracy** · **F1: 0.91** · **AUC: 0.92** · real-time drift monitoring across 5 critical features
+
+---
+
+### education
+
+| degree | institution | period | cgpa |
+|--------|-------------|--------|------|
+| ms in computer science | arizona state university | aug 2024 – may 2026 | 3.96 / 4.0 |
+| b.tech in it · data science | symbiosis institute of technology, pune | 2020 – 2024 | 7.89 / 10 |
+
+---
+
+### github stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AtharvaBOT7&show_icons=true&theme=tokyonight" />
@@ -49,9 +96,6 @@ I thrive on:
 
 ---
 
-### 💡 Personal Motto
-
-> I don’t just want to use AI — I want to build with it, challenge it, and make it more accessible and impactful.  
-> For me, AI isn’t just code. It’s creativity at scale — and I’m here for it.
-
----
+> i don't just want to use ai — i want to build with it, challenge it,
+> and make it more accessible and impactful.
+> ai isn't just code. it's creativity at scale.
