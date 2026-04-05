@@ -1,101 +1,101 @@
-<h1 align="center">atharva chundurwar</h1>
+<h1 align="center">Atharva Chundurwar</h1>
 
 <p align="center">
-  <code>ms cs @ asu</code> &nbsp;·&nbsp; <code>ai/ml builder</code> &nbsp;·&nbsp; <code>llm systems</code> &nbsp;·&nbsp; <code>voice ai</code>
+  <code>MS CS @ ASU</code> &nbsp;·&nbsp; <code>AI/ML Builder</code> &nbsp;·&nbsp; <code>LLM Systems</code> &nbsp;·&nbsp; <code>Voice AI</code>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/atharva-chundurwar-7080a31b7/"><img src="https://img.shields.io/badge/linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/AtharvaBOT7"><img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/AtharvaBOT7/AtharvaBOT7/raw/main/Atharva_Resume.pdf"><img src="https://img.shields.io/badge/resume-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/atharva-chundurwar-7080a31b7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/AtharvaBOT7"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/AtharvaBOT7/AtharvaBOT7/raw/main/Atharva_Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-red?style=flat&logo=adobeacrobatreader&logoColor=white" /></a>
 </p>
 
 ---
 
 ```
-builder @ the intersection of llm systems + real-world products.
-ms cs @ asu (cgpa: 3.96/4.0) — shipping voice ai agents, rag pipelines,
+Builder at the intersection of LLM systems + real-world products.
+MS CS @ ASU (CGPA: 3.96/4.0) — shipping Voice AI agents, RAG pipelines,
 and multimodal workflows that actually work in production.
 
-currently deep in: prompt engineering · rag · voice ai · fine-tuning
-obsessed with: making ai useful, explainable, and human-aligned.
+Currently deep in: Prompt Engineering · RAG · Voice AI · Fine-Tuning
+Obsessed with: making AI useful, explainable, and human-aligned.
 ```
 
 ---
 
-### toolbox
+### 🧰 Toolbox
 
-| layer | stack |
+| Layer | Stack |
 |-------|-------|
-| **languages** | python · c · c++ · sql · r · shell/bash |
-| **ml / genai** | pytorch · huggingface · langchain · langgraph · llamaindex · ollama · scikit-learn |
-| **vector / rag** | pinecone · faiss · chroma db · weaviate |
-| **mlops** | mlflow · dvc · airflow · prometheus · grafana · databricks |
-| **cloud / infra** | aws · gcp · azure · docker · kubernetes · apache spark · snowflake |
-| **apis / backend** | fastapi · flask · postgresql · hadoop · hive · dbt |
+| **Languages** | Python · C · C++ · SQL · R · Shell/Bash |
+| **ML / GenAI** | PyTorch · HuggingFace · LangChain · LangGraph · LlamaIndex · Ollama · Scikit-learn |
+| **Vector / RAG** | Pinecone · FAISS · Chroma DB · Weaviate |
+| **MLOps** | MLflow · DVC · Airflow · Prometheus · Grafana · Databricks |
+| **Cloud / Infra** | AWS · GCP · Azure · Docker · Kubernetes · Apache Spark · Snowflake |
+| **APIs / Backend** | FastAPI · Flask · PostgreSQL · Hadoop · Hive · dbt |
 
 ---
 
-### projects
+### 🚀 Projects
 
-#### text-to-sql — natural language to sql query generation
-`flan-t5` `fastapi` `streamlit` `spider-dataset`
+#### Text-to-SQL — Natural Language to SQL Query Generation
+`Flan-T5` `FastAPI` `Streamlit` `Spider Dataset`
 
-fine-tuned flan-t5 for cross-domain text-to-sql on spider dataset (10,181 samples, 138 domains) with schema-aware prompt engineering. deployed production system via streamlit + fastapi for natural language querying across arbitrary sqlite databases.
+Fine-tuned Flan-T5 for cross-domain Text-to-SQL on the Spider dataset (10,181 samples, 138 domains) with schema-aware prompt engineering. Deployed a production system via Streamlit + FastAPI enabling natural language querying across arbitrary SQLite databases.
 
-> **89.8% valid sql** · **1.6–5.5s generation latency** · automatic schema extraction
+> **89.8% valid SQL** · **1.6–5.5s generation latency** · Automatic schema extraction
 
 ---
 
-#### llm reasoning evaluation framework
-`llama-3-8b` `gemini-pro-1.5` `logiqa` `arct`
+#### LLM Reasoning Evaluation Framework
+`Llama-3-8B` `Gemini Pro 1.5` `LogiQA` `ARCT`
 
-evaluated open/closed-source llms on logical reasoning benchmarks. designed structured error taxonomy across 5 high-level + 9 fine-grained failure categories. built automated llm-based evaluator for reasoning error detection.
+Evaluated open and closed-source LLMs on logical reasoning benchmarks. Designed a structured error taxonomy across 5 high-level and 9 fine-grained failure categories. Built an automated LLM-based evaluator for reasoning error detection.
 
 > **81.98% evaluator accuracy** · **30% improvement** over baseline heuristics
 
 ---
 
-#### ai-med — medical chatbot via rag + vector db
-`langchain` `llama2` `pinecone` `flask`
+#### AI-Med — Medical Chatbot via RAG + Vector DB
+`LangChain` `LLaMA2` `Pinecone` `Flask`
 
-production rag pipeline with dense vector retrieval indexing 4,000+ pages of medical documentation. integrated langchain + locally hosted llama2 with vector-based document retrieval + dynamic llm generation.
+Production RAG pipeline with dense vector retrieval indexing 4,000+ pages of medical documentation. Integrated LangChain with a locally hosted LLaMA2 model, fusing vector-based document retrieval with dynamic LLM generation.
 
 > **0.93 retrieval accuracy** on domain-specific queries
 
 ---
 
-#### vehicle insurance prediction — production mlops pipeline
-`aws` `kubernetes` `docker` `prometheus` `grafana`
+#### Vehicle Insurance Prediction — Production MLOps Pipeline
+`AWS` `Kubernetes` `Docker` `Prometheus` `Grafana`
 
-end-to-end mlops pipeline (ingest → validate → train → deploy) with data + concept drift detection. deployed via aws s3 + github actions ci/cd → ec2 + docker + amazon ecr + kubernetes.
+End-to-end MLOps pipeline (ingest → validate → train → deploy) with data and concept drift detection. Deployed via AWS S3 + GitHub Actions CI/CD to EC2 using Docker, Amazon ECR, and Kubernetes for scalable orchestration.
 
-> **93% accuracy** · **f1: 0.91** · **auc: 0.92** · real-time drift monitoring across 5 critical features
-
----
-
-### education
-
-| degree | institution | period | cgpa |
-|--------|-------------|--------|------|
-| ms in computer science | arizona state university | aug 2024 – may 2026 | 3.96 / 4.0 |
-| b.tech in it · data science | symbiosis institute of technology, pune | 2020 – 2024 | 7.89 / 10 |
+> **93% accuracy** · **F1: 0.91** · **AUC: 0.92** · Real-time drift monitoring across 5 critical features
 
 ---
 
-### github stats
+### 🎓 Education
+
+**Arizona State University** — MS in Computer Science *(Aug 2024 – May 2026)* · CGPA: 3.96/4.0
+
+**Symbiosis Institute of Technology, Pune** — B.Tech in Information Technology, Data Science *(2020 – 2024)* · CGPA: 7.89/10
+
+---
+
+### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AtharvaBOT7&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtharvaBOT7&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AtharvaBOT7&show_icons=true&theme=tokyonight&count_private=true" alt="Atharva's GitHub Stats" />
 </p>
-
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AtharvaBOT7&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtharvaBOT7&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=AtharvaBOT7&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
 ---
 
-> i don't just want to use ai — i want to build with it, challenge it,
-> and make it more accessible and impactful.
-> ai isn't just code. it's creativity at scale.
+> *"I don't just want to use AI — I want to build with it, challenge it,*
+> *and make it more accessible and impactful.*
+> *For me, AI isn't just code. It's creativity at scale."*
