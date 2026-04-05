@@ -85,13 +85,15 @@ End-to-end MLOps pipeline (ingest → validate → train → deploy) with data a
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AtharvaBOT7&show_icons=true&theme=tokyonight&count_private=true" alt="Atharva's GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=AtharvaBOT7&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtharvaBOT7&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-profile-trophy.vercel.app/?username=AtharvaBOT7&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
 </p>
+
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=AtharvaBOT7&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AtharvaBOT7&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
 </p>
 
 ---
